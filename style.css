@@ -1,0 +1,288 @@
+@font-face{
+    font-family: 'nothing_font_2';
+    src: url('./fonts/ndot_47.woff') format('woff');
+}
+/*상단 메뉴바 스타일 시트*/
+body{
+    font-family: 'nothing_font_2';
+    background-color: black;
+    color: white;
+    height: 100%
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.navbar{ /*navbar 스타일 시트*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 6px solid;
+    border-color: white;
+}
+.navbar i{
+    color: white;
+}
+.navbar img{/*navbar 아래에 img 태그(아이콘)*/
+    width: 100px;
+    height: 100px;
+    border-radius: 45%;
+    padding-right: 30px;
+}
+.navbar__logo{
+    font-size: 30px;
+    color: white;
+}
+.navbar__logo:hover{
+    background-color: grey;
+}
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar__menu li{
+    padding: 8px 12px;
+    font-size: 13px;
+}
+.navbar__menu li:hover{
+    background-color: grey;
+}
+
+
+/*메인 화면 스타일 시트 (자기소개)*/
+main{
+
+    
+
+    min-height: 700px;/*메인 레이아웃 잡을때 해당방식으로 하면 main하위 요소들이 작더라도 최소 길이를 유지하면서 main-height값을 초과하면 자동으로 확장함*/
+}
+.main__container{
+    border: 10px solid skyblue; 
+    height: 1000px;
+}
+.main__profile__box{
+    float: left;
+    width: 30%;
+    height: 1000px;
+
+    border: 7px solid yellowgreen;
+}
+.main__profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    overflow: hidden;
+    border-color: white solid;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    border: 7px solid red;
+}
+.main__profile__inf li{
+    list-style: none;
+    font-size: 100%;
+
+    border: 7px solid blue;
+}
+.main__inf__box{
+    font-size:30px;
+    width: 70%;
+    margin-left: 30%;
+    border: 7px solid green;
+}
+.main__inf__title{
+    border: 7px solid purple;
+
+    margin-left: 10px;
+}
+.main__inf__list li{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 30px;
+
+    border: 5px solid yellow;
+    
+}
+
+/*아래부터 CS 스타일 시트*/
+.cs__main__box{
+    display: flex;
+
+    width: 100%;
+    height: 1000px;
+
+    border: 7px solid red;
+}
+table img{
+    display: flex;
+    border-radius: 70%;
+    width: 150px;
+    height: 150px;
+
+    border: 7px solid orange;
+}
+.cs__main__photo__box{
+    width: 30%;
+    float:left;
+    
+    border: 7px solid yellow;
+}
+.cs__main__photo{
+    width: 100%;
+
+    border: 7px solid hotpink;
+}
+.cs__main__title{
+    border: 7px solid skyblue;
+    margin-left: 10px;
+}
+.cs__main__description{
+    font-size: 50px;
+    align-items: center;
+    width: 100%;
+
+    border: 7px solid green;
+}
+.cs__main__description__list{
+    list-style: none;
+    font-size: 50px;
+    padding-left: 0px;
+    margin-left: 10px;
+
+    border: 7px solid blue;
+}
+
+/*아래 부터 role model 스타일 시트*/
+.role__model__container{
+    border: 7px solid purple;
+
+    height: 1000px;
+}
+.role__model__1__Box{
+    display: flex;
+    height: 30%;
+
+    border: 7px solid red;
+}
+.role__model__1__pic{
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-radius: 70%;
+
+    border: 7px solid orange;
+}
+.role__model__1__list{
+    width: 70%;
+    height: 100%;
+    margin-top: 0px;
+    font-size: 3em;
+    
+    border: 7px solid yellow;
+}
+.role__model__2__Box{
+    display: flex;
+    height: 30%;
+
+    border: 7px solid green;
+}
+.role__model__2__pic{
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-radius: 70%;
+
+    border: 7px solid blue;
+}
+.role__model__2__list{
+    width: 70%;
+    height: 100%;
+    margin: 0px;
+
+    font-size: 3em;
+    border: 7px solid skyblue;
+    
+}
+
+/*여기부터 study_log 스타일 시트*/
+.study__log__board__box{
+    border:7px solid red;
+    
+    height: 800px;
+
+}
+.study__log__board{
+    border: 7px solid orange;
+    height: 700px;
+}
+.study__log__board_title{
+    border-bottom: 7px solid yellow;
+    padding-bottom: 500px;
+}
+.study__log__board__list{
+    border: 5px solid yellow;
+    height: 100px;
+    
+}
+.study__log__board__list span{
+    float: right;
+    align-items: center;
+    padding-right: 20px;
+}
+.study__log__board__list a{
+    padding-left: 20px;
+    border: 5px solid green;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.study__log__board__list span{
+    border: 5px solid yellowgreen;
+    padding-left: 20px;
+    height: 100%;
+}
+/*여기부터 study_log > plan.html 스타일 시트 */
+.plan__main{
+    
+    display: flex;
+    
+    
+    border: 7px solid red;
+}
+.plan__pic{
+    width: 400px;
+    height: 400px;
+    float: left;
+    
+    border: 7px solid orange;
+}
+.plan__title{
+    border: 7px solid yellow;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+    display: block;
+    
+}
+.plan__ul{
+    border: 7px solid yellowgreen;
+    height: 100%;
+    width: 100%
+}
+.plan__ul li{
+    padding: 0px;
+    margin: 0px;
+   
+    
+}
+footer{
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background-color: grey;
+}
